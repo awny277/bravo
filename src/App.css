@@ -1,0 +1,47 @@
+
+body{
+  background-color: #212529;
+}
+.container {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  margin: 10px 0;
+  color: white;
+}
+h2 {
+  color: white;
+}
+.btn {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0.5rem 1.5rem rgb(0 0 0 / 15%);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  background-color: white;
+}
+.vedioContainer {
+  width: 500px;
+  height: 400px;
+  margin: auto;
+}
+.vedioContainer video {
+  width: 100%;
+  height: 100%;
+}
+.form-control {
+  width: 30%;
+  margin: 10px auto;
+}
+@media (max-width: 767.98px) { 
+  .vedioContainer {
+    width: 95%;
+  }
+  .form-control {
+    width: 80%;
+  }
+}
